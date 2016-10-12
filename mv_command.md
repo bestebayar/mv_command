@@ -19,8 +19,11 @@
 >>> move a directory 
 
 ~/lessons$ mv biosensors/viral_sensors/virology/ biosensors/
+
 ~/lessons/biosensors$ mv -v viral_sensors/ virology/ ../
+
 'viral_sensors/' -> '../viral_sensors'
+
 'virology/' -> '../virology'
 
 >>> move multiple directories
@@ -34,6 +37,7 @@
 >>> renaming directory
 
 ~/lessons/linux$ mv -i chapter3.txt ../biosensors/viral_sensors/virology/
+
 mv: overwrite '../biosensors/viral_sensors/virology/chapter3.txt'? new_chapter.txt
 
 >>> interactive mode
